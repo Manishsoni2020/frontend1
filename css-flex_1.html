@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            height: 100vh;
+            width: 100%;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .head{
+            height: 10%;
+            /* border: 2px solid white; */
+            width: 90%;
+            background-color: darkcyan;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 5px;
+          
+        }
+        .main{
+            height: 60%;
+            /* border: 2px solid white; */
+            width: 90%;
+            display: flex;
+        }
+        .foot{
+            height: 20%;
+            /* border: 2px solid white; */
+            width: 90%;
+            background-color: dodgerblue;
+            text-align: center;
+            margin: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+       
+        }
+        .left{
+            height: 98%;
+            width: 30%;
+            /* border: 2px solid white; */
+            background-color: green;   
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+                         
+        } 
+
+        .right{
+
+            /* background-color: red; */
+            width: 70%;
+            height: 98%;
+            margin: 4px;
+            }
+        .up{
+            height: 50%;
+            width: 100%;
+            background-color: blue;
+            text-align: center;
+            margin: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .down{
+            height: 50%;
+            width: 100%;
+            /* background-color: pink; */
+            display: flex;
+            justify-content: space-between;
+            margin: 5px;
+            
+        }
+        .dleft{
+            height: 92%;
+            width: 49%;
+            background-color: blueviolet;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .dright{
+            height: 92%;
+            width: 49%;
+            background-color: gray;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="head">
+            <h5>header</h5>
+        </div>
+        <div class="main">
+            <div class="left">
+                <h5>Side bar</h5>
+            </div>
+            <div class="right">
+                <div class="up">
+                    <h5>Content-1</h5>
+                </div>
+                <div class="down">
+                    <div class="dleft">
+                        <h5>Content-2</h5>
+                    </div>
+                    <div class="dright">
+                        <h5>Content-3</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foot">
+            <h5>footer</h5>
+        </div>
+    </div>
+</body>
+</html>

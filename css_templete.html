@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header{
+            height: 60px;
+            width: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 99;
+            position: sticky;
+            top: 0px;
+            background-color: white;
+            box-shadow: 0px 0px 8px black;
+        }
+        .header h4{
+                margin-left: 20px;
+                letter-spacing: 5px;
+            }
+        ul {
+            display: flex;
+        }
+        ul li{
+            margin: 0px 25px;
+            list-style: none;
+        }
+        .burger {
+            height: 600px;
+            width: 100%;
+            background-image: url(https://www.w3schools.com/w3images/hamburger.jpg);
+            position: relative;
+        }
+        .burger h1{
+            position: absolute;
+            bottom: 0px;
+            color: gray;
+            letter-spacing: 5px;
+            margin-left: 30px;
+        }
+        .cate{
+            height: 700px;
+            width: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .ph{
+            height: 600px;
+            width: 50%;
+            /* border: 2px solid black; */
+        }
+        .ph img{
+            height: 100%;
+            width: 100%;
+        }
+        .ab{
+            height: 600px;
+            width: 30%;
+            /* border: 2px solid black; */
+            text-align: center;
+            margin-left: 20px;
+        }
+        .ab p{
+            text-align: justify;
+        }
+        .menu{
+            height: 800px;
+            width: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+            justify-content: center;
+            align-items:center ;
+        }
+        .or{
+            height: 700px;
+            width: 40%;
+            /* border: 2px solid black; */
+           
+        }
+        .pic{
+            height: 700px;
+            width: 37%;
+            /* border: 2px solid black; */
+        }
+        .pic img{
+            height: 100%;
+            width: 100%;
+        }
+        .or h3{
+            line-height: 2;
+        }
+        .con{
+            height: 700px;
+            width: 90%;
+            /* border: 2px solid black; */
+            position: relative;
+            justify-content:center ;
+            align-items: center;
+        }
+
+        input{
+
+            border: none;
+            border-bottom: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h4> Gourmet au Catering</h4>
+        <ul>
+            <li>About</li>
+            <li>Menu</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="burger">
+        <h1>Le Catering</h1>
+    </div>
+    <div class="cate">
+        <div class="ph">
+            <img src="https://www.w3schools.com/w3images/tablesetting2.jpg" alt="">
+        </div>
+        <div class="ab">
+            <h1 style="margin-top: 5px; letter-spacing: 3px;">About Catering</h1>
+            <h3 style="margin-top: 30px; letter-spacing: 3px;">Tradition since 1889</h3>
+            <p style="margin-top: 40px; line-height: 1.5; font-size: 17px;">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.</p>
+            <p style="margin-top: 40px; line-height: 1.5; font-size: 17px; color: darkgrey;">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="or">
+            <h1 style="text-align: center; margin-top: 4px;">Our Menu</h1>
+            <h3 style="letter-spacing: 3px; margin-top: 40px;">Bread Basket</h3>
+            <h5 style="margin-top: 20px; color: grey;">Assortment of fresh baked fruit breads and muffins 5.50</h5>
+            <h3 style="letter-spacing: 3px; margin-top: 40px;">Honey Almond Granola with Fruits</h3>
+            <h5 style="margin-top: 20px; color: grey;">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</h5>
+            <h3 style="letter-spacing: 3px; margin-top: 40px;">Belgian Waffle</h3>
+            <h5 style="margin-top: 20px; color: grey;">Vanilla flavored batter with malted flour 7.50</h5>
+            <h3 style="letter-spacing: 3px; margin-top: 40px;">Scrambled eggs</h3>
+            <h5 style="margin-top: 20px; color: grey;">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</h5>
+            <h3 style="letter-spacing: 3px; margin-top: 40px;">Blueberry Pancakes</h3>
+            <h5 style="margin-top: 20px; color: grey;">With syrup, butter and lots of berries 8.50</h5>
+        </div>
+        <div class="pic">
+            <img src="https://www.w3schools.com/w3images/tablesetting.jpg" alt="">
+        </div>
+    </div>
+    <div class="con">
+        <h1 style="margin: 50px 150px;">Contact</h1>
+        <h4 style="margin-left: 150px;">We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</h4>
+        <h3 style="margin-left: 150px; margin-top: 25px; color:cadetblue;">Catering Service, 42nd Living St, 43043 New York, NY</h3>
+        <h5 style="margin-left: 150px; margin-top: 25px;">You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</h5>
+        <input type="text" placeholder="Name" style="height: 50px; width: 88%; margin-left: 150px; margin-top: 25px;">
+        <input type="text" placeholder="How many people" style="height: 50px; width: 88%;margin-left: 150px; margin-top: 25px;">
+        <input type="date" placeholder="16-11-2020 20:00" style="height: 50px; width: 88%;margin-left: 150px; margin-top: 25px; ">
+        <input type="text" placeholder="Message \ Special requirements" style="height: 50px; width: 88%;margin-left: 150px; margin-top: 25px;">
+        <!-- <input type="text" placeholder="SEND MESSAGE" style="height: 30px; width: 10%; text-align: center; margin-left: 150px; margin-top: 25px;"> -->
+        <button style="margin-left: 150px; margin-top: 25px;height: 30px; width: 10%;">SEND MESSAGE</button>
+    </div>
+</body>
+</html>

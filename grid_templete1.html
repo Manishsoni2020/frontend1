@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            background-color: white;
+            display: grid;
+            grid-template-rows: 1fr 4fr;
+            grid-gap: 10px;
+        }
+        .upper{
+            background-color: yellow;
+            /* border: 2px solid white; */
+            border-radius: 10px ;
+        }
+        .lower{
+            /* background-color: yellow; */
+            /* border: 2px solid white; */
+            border-radius: 10px ;
+        }
+        .lower-one{
+            display: grid;
+            grid-template-columns: 1fr 4fr;
+            grid-gap: 10px;
+            /* border: 2px solid black; */
+        }
+        .right{
+            /* background-color: yellow; */
+            /* border: 2px solid white; */
+            border-radius: 10px ;
+        }
+        .left{
+            /* background-color: yellow; */
+            /* border: 2px solid white; */
+            border-radius: 10px ;
+        }
+        .right-again
+        {
+            display: grid;
+            grid-template-rows: 2fr 4fr;
+            grid-gap: 10px;
+            /* border: 2px solid black; */
+        }
+        .item1{
+            background-color: red;
+            /* border: 2px solid white; */
+            border-radius: 10px ;
+        }
+        .item2{
+            background-color: yellow;
+            /* border: 2px solid white; */
+            border-radius: 10px ;
+        }
+        .left-again{
+            display: grid;
+            grid-template-rows: 3fr 1fr;
+            grid-gap: 10px;
+        }
+        .item3{
+            /* background-color: yellow; */
+            /* border: 2px solid white; */
+            border-radius: 10px ;
+        }
+        .item4{
+            background-color: yellow;
+            /* border: 2px solid white; */
+            border-radius: 10px ;
+        }
+        .item3-again{
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            grid-gap: 10px;
+        }
+        .item5{
+            background-color: yellow;
+            /* border: 2px solid white; */
+            border-radius: 10px ;
+        }
+        .item6{
+            /* background-color: yellow; */
+            /* border: 2px solid white; */
+            border-radius: 10px ;
+        }
+        .item6-again
+        {
+            display: grid;
+            grid-template-rows: 2fr 2fr;
+            grid-gap: 10px;
+        }
+        .ucha{
+            background-color: red;
+            /* border: 2px solid white; */
+            border-radius: 10px ;
+        }
+        .nicha{
+            background-color: red;
+            /* border: 2px solid white; */
+            border-radius: 10px ;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="upper"></div>
+        <div class="lower lower-one">
+            <div class="rigt right-again">
+                <div class="item1"></div>
+                <div class="item2"></div>
+            </div>
+            <div class="left left-again">
+                <div class="item3 item3-again">
+                    <div class="item5 ">
+                        
+                    </div>
+                    <div class="item6 item6-again">
+                        <div class="ucha"></div>
+                        <div class="nicha"></div>
+                    </div>
+                </div>
+                <div class="item4"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <input type="text" id="inp1">
+    <input type="text" id="inp2">
+    <button id="btn">click</button>
+    <script>
+        document.getElementById("btn").onclick=function()
+        {
+            let a=Number(document.getElementById("inp1").value);
+            let b=Number(document.getElementById("inp2").value);
+            let result=a+b;
+            console.log(result);
+        }
+    </script> -->
+    <input type="text" placeholder="Enter your username" class="imp">
+    <br> <br>
+    <input type="text" placeholder="Enter your email" class="imp">
+    <br> <br>
+    <input type="text" placeholder="Enter your mobile number" class="imp">
+    <br> <br>
+    <input type="text" placeholder="Enter your Password" class="imp">
+    <br> <br>
+    <button id="btn">Submit</button>
+
+    <script>
+        document.getElementById("btn").onclick=function()
+        {
+            let a=document.getElementsByClassName("imp");
+            console.log(a);
+        }
+    </script>
+
+</body>
+</html>

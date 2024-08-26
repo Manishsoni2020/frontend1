@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <input type="range" id="input" class="" >
+    <h1 id="h">Hello</h1>
+    
+    <script>
+        document.getElementById("input").oninput=function()
+        {
+           let a= document.getElementById("input").value
+           document.getElementById("h").style.fontSize=a+"px"
+        }
+    </script>
+</body>
+</html>

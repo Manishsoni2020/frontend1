@@ -4,24 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        
+        }
+        .main
+        {
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: black;
+            /* padding: 2px; */
+            color: white;
+        }
+        .mid ul
+        {
+            display: flex;
+            list-style: none;
+        }
+        .mid ul li{
+           padding: 20px;
+        }
+        .mid ul li:hover{
+           color: yellow;
+           cursor: pointer;
+        }
+        .right button
+        {
+            padding: 10px 15px;
+            background-color: rgb(161, 97, 54);
+            color: white;
+            border-radius: 20px;
+        }
+        .right button:hover
+        {
+            cursor: pointer;
+            background-color: rgb(241, 182, 142);
+        }
+        .subpro ul
+        {
+            position: relative;
+            display: block;
+            visibility: hidden;
+        }
+        .cat
+        {
+            position: absolute;
+        }
+        .subpro:hover .cat ul
+        {
+            visibility: visible;
+            color: black;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <div class="left">
-            <h1>Logo</h1>
-        </div>
-        <div class="mid">
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Product</li>
-                <li>Blog</li>
-            </ul>
-        </div>
-        <div class="right">
-            <button>Login</button>
-            <button>Signup</button>
-
+        <div class="main">
+            <div class="left">
+                <h2>Logo</h2>
+            </div>
+            <div class="mid">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li class="subpro">Product
+                        <div class="cat">
+                            <ul>
+                                <li>Men</li>
+                                <li>Women</li>
+                                <li>Kids</li>
+                                <li>Other</li>
+                            </ul>
+                        </div>
+                        
+                    </li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="right">
+                <button>Login</button>
+                <button>Signup</button>
+    
+            </div>
         </div>
     </header>
 </body>

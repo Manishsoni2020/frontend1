@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box ;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main{
+            height: 280px;
+            width: 300px;
+            /* border: 2px solid black; */
+            position: relative;
+            cursor: pointer;
+            overflow: hidden;
+        }
+        .photo{
+            height: 100%;
+            width: 100%;
+            background-image: url(https://www.foodiesfeed.com/wp-content/uploads/2023/06/burger-with-melted-cheese.jpg);
+            background-size: cover;
+        }
+        .containt
+        {
+            height: 40%;
+            width: 100%;
+            /* background-color: red; */
+            color: white;
+            padding: 15px;
+            text-align: justify;
+            font-size: 18px;
+            position: absolute;
+            top: 280px;
+            background-color: red;
+            /* visibility: hidden; */
+            transition: all 1s;
+        }
+        .rs
+        {
+            height: 50px;
+            width: 50px;
+            background-color: red;
+            color: white;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .photo:hover .containt{
+
+            transform: translateY(-100px);
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="rs">
+            <h4>$10</h4>
+        </div>
+        <div class="photo">
+            <div class="containt">
+                <h3>Burger</h3>
+                <p>Burgers are perhaps one of the most iconic meals on the planet, and for good reason. Traditional, juicy beef (or chicken), topped with a fresh, delicious salad, complimentary sauces, and sandwiched between two fluffy buns. The true perfect bite.</p>
+            </div>
+        </div>
+        
+       
+    </div>
+    
+</body>
+</html>

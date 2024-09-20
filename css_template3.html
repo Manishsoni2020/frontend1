@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        header
+        {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            color: black;
+            /* border: 2px solid black; */
+            padding: 15px 0px;
+            position: relative;
+            z-index: 99;
+            position: sticky;
+            top: 0px;
+            box-shadow: 0px 0px 8px black;
+        }
+        header h2 
+        {
+            font-size: 15px;
+        }
+        ul
+        {
+            display: flex;
+        }
+        ul li 
+        {
+            list-style: none;
+            margin: 0px 10px;
+           font-size: 15px;
+        }
+        .apple
+        {
+            height: 92vh;
+            background-position: center;
+            background-size: cover;
+            background-image: url(https://www.w3schools.com/w3images/mac.jpg);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            flex-wrap: wrap;
+            
+        }
+        .apple h1,.apple h4{
+            color: white;
+           line-height: 90px;
+        }
+        .apple h1,.apple h4,.apple button
+        {
+           margin-left: 50px;
+        }
+        .apple button
+        {
+            color: rgb(175, 175, 175);
+            background-color: gray;
+            height: 50px;
+            width: 220px;
+            font-size: 15px;
+        }
+        .icon
+        {
+            color: white;
+            margin-left: 50px;
+            /* display: flex; */
+            
+        }
+        .about
+        {
+            /* height: 10%; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            line-height: 50px;
+            margin-top: 120px;
+            flex-wrap: wrap;
+        }
+        .about h2,.about h3{
+            font-weight: 2;
+            font-size: 20px;
+        }
+        .about h3{
+            font-size: 15px;
+        }
+        .logo
+        {
+            margin-top: 60px;
+            display: flex;
+            justify-content: space-around;
+            line-height: 25px;
+            flex-wrap: wrap;
+        }
+        .logo p
+        {
+            font-size: 14px;
+            font-weight: 50;
+        }
+        .logo i
+        {
+            font-size: 55px;
+        }
+        .logo h4
+        {
+            color: black;
+            margin-left: 0px;
+            font-weight: 50;
+            line-height: 90px;
+        }
+        .item
+        {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+        }
+        .know
+        {
+            height: 500px;
+            width: 100%;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        .we
+        {
+            height: 350px;
+            width: 50%;
+            border: 2px solid black;
+            margin: 0px 10px;
+            line-height: 25px;
+        }
+        .phone
+        {
+            height: 350px;
+            width: 45%;
+            /* border: 2px solid black; */
+            margin: 0px 10px;
+            background-image: url(https://www.w3schools.com/w3images/phone_buildings.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h2>LOGO</h2>
+        <ul>
+            <li>ABOUT</li>
+            <li>TEAM</li>
+            <li>WORK</li>
+            <li>PRICING</li>
+            <li>CONTACT</li>
+        </ul>
+    </header>
+    <div class="apple">
+        <h1 style="font-size: 60px; font-weight:lighter;">Start something that matters</h1>
+        <h4 style=" font-weight:lighter;">Stop wasting valuable time with projects that just isn't you.</h4>
+        <div class="learn">
+            <button style="color: black;">Learn more and start today</button>
+        </div>
+        <div class="icon">
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-snapchat"></i>
+        <i class="fa-brands fa-pinterest-p"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </div>
+    <div class="about">
+        <h2>ABOUT THE COMPANY</h2>
+        <h3>Key features of our company</h3>
+    </div>
+    <div class="logo">
+        <div class="item"><i class="fa-solid fa-computer"></i>
+           <h4>Responsive</h4>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+        </div>
+        <div class="item">
+            <i class="fa-solid fa-heart"></i>
+            <h4>Passion</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+            </p>
+        </div>
+        <div class="item">
+            <i class="fa-regular fa-gem"></i>
+            <h4>Design</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+            </p>
+        </div>
+        <div class="item">
+            <i class="fa-solid fa-gear"></i>
+            <h4>Support</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+            </p>
+        </div>
+    </div>
+    <div class="know">
+        <div class="we">
+            <h4>We know design.</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore.</p>
+                <button>View Our Works</button>
+        </div>
+        <div class="phone">
+            
+        </div>
+    </div>
+</body>
+</html>

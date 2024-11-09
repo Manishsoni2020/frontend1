@@ -360,7 +360,114 @@ Array.find
 // })
 // console.log(againnewarray);
 
+// Q.1 find the square root of each element in array?
+// let arr=[25,36,49,64,81]
+// let newarr=arr.map((element)=>{
+//     return Math.sqrt(element)
+// })
+// console.log(newarr);
+
+// Q.2 Multiply each element by 2 and return only those element
+    // which are greater than 10 ?
+
+// let arr=[2,3,4,6,8];
+// let againarr=arr.map((ele)=>{
+//     return ele*2;
+// }).filter((ele)=>{
+//     return ele>10
+// })
+// console.log(againarr);
+
+// -- Reduce method--
+// add elements of array
+
+// let arr=[5,6,3]
+// let sum=arr.reduce((accumulator,curelement)=>{
+//     return accumulator=accumulator+curelement;
+// })
+// console.log(sum);
+
+// multiply elements of array and another number which in not 
+// present in array
+// let arr=[10,12,45,3]
+// let multi=arr.reduce((accumulator,ele)=>{
+// return accumulator *= ele;
+// },8)
+// console.log(multi);
+
+// how to fatten an array 
+// converting 2d and 3d array into one dimensional array
+
+// const arr=[
+//     ["zone_1","zone_2"],
+//     ["zone_3","zone_4"],
+//     ["zone_5","zone_6"],
+//     ["zone_7","zone_8"],
+//     ["zone_9","zone_10"]
+// ]
+// let flatarr=arr.reduce((acum,elem)=>{
+//     return acum.concat(elem)
+// })
+// console.log(flatarr);
+
+// ------------------------------String------------------------------
+// 1.length
+// let myName="manish soni";
+// console.log(myName.length);
+
+// // 2.Escape
+// let msg="my name is \"manish soni\" and i am not feeling well"
+// console.log(msg);
+
+// // second way for print double couts
+// let msg1="my name is 'manish soni' and i am not feeling well"
+// console.log(msg1);
+
+// 3.indexOf
+// const biodata="I am maddy technicals"
+// console.log(biodata.indexOf("maddy"));
+
+// 4.lastindexof
+// const biodata="I am maddy technicals"
+// console.log(biodata.lastIndexOf("a",5));
+
+// 5.search()
+// const biodata="I am maddy technicals"
+// let sdata=biodata.search("maddy")
+// console.log(sdata);
+
+// 6. slice
+// var str="manish, rakesh, suresh, mahesh";
+// let rs=str.slice(4);
+// console.log(rs);
+
+// var str="manish, rakesh, suresh, mahesh";
+// let rs=str.slice(-4,-3);
+// console.log(rs);
+
+// Q.1 display only 280 char of a string like the 
+// one 
+// let se="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus quas, nam illo distinctio commodi nisi sit fugiat. Tempore fugit alias quasi possimus sunt, dicta quos repellendus. Est id facilis animi numquam quidem unde similique minus a hic corporis, maiores, tempore eum quam adipisci rerum. Omnis ratione, labore laborum sed atque commodi asperiores dolorem sequi iste aperiam porro corrupti beatae dignissimos fugit quaerat alias, odit officia. Possimus, dolore porro. Necessitatibus saepe in earum blanditiis alias fugit, itaque sed, aperiam soluta nobis sunt consequatur expedita modi eius, voluptatum voluptatem sit molestias incidunt! Iste soluta, perferendis qui harum, distinctio mollitia aperiam eveniet, pariatur iure omnis maxime? Temporibus eos nulla corporis, voluptate odit quisquam similique aperiam unde fugit sapiente consectetur voluptas accusantium dignissimos dolores. Iure porro nulla aliquam dignissimos voluptatem, pariatur doloribus ratione aperiam numquam illum eaque praesentium qui, magnam ex. Quos ipsam voluptatibus vitae suscipit, sint consequatur ea eaque pariatur non perferendis molestias fugit, corporis magnam aperiam laboriosam ab repudiandae neque deserunt dicta. Possimus porro fugiat nesciunt illum consequatur deserunt officia voluptates quaerat dolores. Facere ipsam accusamus voluptates quod culpa similique sint nobis sit nemo, repellendus iure? Asperiores saepe hic eum eveniet ipsam minima recusandae iste aperiam perspiciatis veniam, adipisci dolor! Consequuntur, tempora minus sed ex fugit exercitationem nihil quos accusantium ratione nobis aspernatur mollitia perspiciatis eligendi, vero placeat ea alias. Optio voluptatibus deleniti neque iure odit at asperiores itaque totam odio illum exercitationem, aliquid enim quam veniam blanditiis aspernatur quasi dignissimos temporibus impedit modi expedita delectus ut? Id aut eum et at magni tempora ipsa. Beatae laborum assumenda repudiandae quis placeat iure eos. Tempore unde ratione, obcaecati, quaerat optio magnam deleniti magni fugiat repellendus placeat earum ut, odio excepturi natus iste sequi. Obcaecati recusandae asperiores molestias mollitia beatae ex culpa, accusamus autem quibusdam ratione quisquam aspernatur, harum vel ipsa, totam explicabo doloribus?"
+
+// let newsen=se.slice(0,280);
+// console.log(newsen);
+// console.log(newsen.length);
+
+// 7.substring()
+// var str="apple, banana, kiwi"
+// let res=str.substring(8,-2);
+// console.log(res);
+
+// 8.substr()
+// var str="apple, banana, kiwi";
+// let rs=str.substr(-4);
+// console.log(rs);
+
+// 9.replace
+// var str="apple, banana, kiwi";
+// let rs=str.replace("apple","Apple");
+// console.log(rs);
 
     </script>
-</body>
-</html> -->
+<!- </body>
+</html> --> 

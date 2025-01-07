@@ -133,6 +133,7 @@
 //         }
 // }
 // a(4)
+
 // Second Way`>>>>>>>>>>>>>>>>>`
 // function pattern(n){
 // for (let i = 1; i <= n; i++) {

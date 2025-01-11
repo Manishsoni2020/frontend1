@@ -147,4 +147,118 @@
 
 // pattern(4)
 
+// operators and conditionals question prectice
+// 1.
+/*let age = 12
+if (age > 10 && age < 20) {
+    console.log("valid");
+}
+else {
+    console.log("not valid");
+}*/
+
+// 2.
+// let age=12;
+// switch (age) {
+//     case 12:
+//         console.log("your age is 12");
+//         break;
+//         case 13:
+//             console.log("your age is 13");
+            
+//     default:
+//         console.log("not vaild");
+        
+//         break;
+// }
+
+// 3.
+// let num=30;
+// if(num%2==0 && num%3==0)
+// {
+//     console.log("divisible");
+// }
+// else 
+// {
+//     console.log("not divisible");
+    
+// }
+
+// 4.
+// let num=12;
+// if(num%2==0 || num%3==0)
+// {
+//     console.log("divisible");
+// }
+// else 
+// {
+//     console.log("not divisible");
+    
+// }
+
+// // 5.
+// let age=22
+// let a=age>18?"you can dirive":"you can not dirve"
+// console.log(a);
+
+// Loops and function question prectice
+// 1.
+// let marks={
+//     manish : 50,
+//     ashish : 20,
+//     shiv : 39
+// }
+// for(let i=0;i<Object.keys(marks).length;i++)
+// {
+//     console.log("the marks of "+Object.keys(marks)[i]+" are "+marks[Object.keys(marks)[i]]);
+    
+// }
+
+// 2. using for in loop
+// for(let key in marks)
+// {
+//     console.log("the marks of "+key+" are "+marks[key]);
+// }
+
+// 3.
+// let a=5;
+// let i=5;
+// while(i!=a)
+// {
+//     console.log("try again");
+// }
+// console.log("good");
+
+
+// String prectice set
+// 1.
+
+// let a="harr\""
+// console.log(a.length);
+
+// 2.
+// let a="I am a java developer"
+// let b="java";
+// let start="I";
+// let end=`developer`;
+// console.log(`there ${b} ${a.includes(b)?"is":"is not"} present`);
+// console.log(`there ${start} ${a.startsWith(start)?"is":"is not"} present in starting`);
+// console.log(`there ${end} ${a.endsWith(end)?"is":"is not"} present in ending`);
+
+// // 3.
+// let a=`MANiSH`;
+// let b=a.toLowerCase();
+// console.log(b);
+
+// 4.
+// let str2="please give rs 1000"
+// let amount=Number.parseInt(str2.slice(15));
+// console.log(amount);
+// console.log(typeof amount);
+
+// 5.
+// let str="jaishreeRam"
+// let ram=str.splice//not possible bcz string is immutebale 
+// console.log(ram);
+
 

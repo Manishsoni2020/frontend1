@@ -258,6 +258,7 @@ else {
 
 // 5.
 // let str="jaishreeRam"
+
 // let ram=str.splice//not possible bcz string is immutebale 
 // console.log(ram);
 

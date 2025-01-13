@@ -165,10 +165,10 @@ else {
 //         break;
 //         case 13:
 //             console.log("your age is 13");
-            
+
 //     default:
 //         console.log("not vaild");
-        
+
 //         break;
 // }
 
@@ -181,7 +181,7 @@ else {
 // else 
 // {
 //     console.log("not divisible");
-    
+
 // }
 
 // 4.
@@ -193,7 +193,7 @@ else {
 // else 
 // {
 //     console.log("not divisible");
-    
+
 // }
 
 // // 5.
@@ -211,7 +211,7 @@ else {
 // for(let i=0;i<Object.keys(marks).length;i++)
 // {
 //     console.log("the marks of "+Object.keys(marks)[i]+" are "+marks[Object.keys(marks)[i]]);
-    
+
 // }
 
 // 2. using for in loop
@@ -264,40 +264,145 @@ else {
 
 // Array in javaScript with method
 // 1.tostring =>convert array in string
-let a=[1,2,3,4,5]
-let b=a.toString()
-console.log(b);
-console.log(typeof b);
+// let a=[1,2,3,4,5]
+// let b=a.toString()
+// console.log(b);
+// console.log(typeof b);
 
 // 2.Join =>for sparate array elements
-let fruits=["apple","banana","mango"]
-let f=fruits.join("$");
-console.log(f);
+// let fruits=["apple","banana","mango"]
+// let f=fruits.join("$");
+// console.log(f);
 
 // 3.pop=>for remove last element of array
-let c=[41,54,86,21,63]
-c.pop()
-console.log(c);
+// let c=[41,54,86,21,63]
+// c.pop()
+// console.log(c);
 
 // 4.push=>for add in last element of array
-let o=[41,54,86,21,63]
-o.push(55)
-console.log(o);
+// let o=[41,54,86,21,63]
+// o.push(55)
+// console.log(o);
 
 // 5. unshift=> for add element at first of array
-let n=["happy","sad","cool","fantastic"]
-n.unshift("superb");
-console.log(n);
+// let n=["happy","sad","cool","fantastic"]
+// n.unshift("superb");
+// console.log(n);
 
 // 6. shift=> for remove element at first of array
-let w=["happy","sad","cool","fantastic"]
-w.shift()
-console.log(w);
+// let w=["happy","sad","cool","fantastic"]
+// w.shift()
+// console.log(w);
 
-// 7. delete=> for delete element form array
-let h=[1,2,3,4,5]
-delete h[1]
-console.log(h);
+// 7. delete operator=> for delete element form array
+// let h=[1,2,3,4,5]
+// delete h[1]
+// console.log(h);
+
+// 8. concat=> for merge arrays in single array
+// let a=[1,2,3,4,5]
+// let b=[6,7,8,9,10]
+// let c=[11,12,13,14,15]
+
+// let d=a.concat(b,c)
+// console.log(d);
+
+// 9. for sort an array alphabetically 
+// let h = [22, 85, 441, 2, 3]
+// h.sort();
+// console.log(h);
+// //second way for sort orignally
+// let compare = (a, b) => {
+//     return a - b;
+// }
+// h.sort(compare)
+// console.log(h);
+
+// 10. reverse=> for print elements in reverse
+// let a=[1,2,3,4,5]
+// let b=a.reverse();
+// console.log(b);
+
+// 11. for delete elements and add new elements and change orignal size also
+// let praveen=["hair","nose","teeth","hands","legs"]
+// let manish=praveen.splice(1,3,"stomach","shoulder","eyes","knee")
+// console.log(praveen);
+// console.log(manish);
+
+// 12. slice => for create sub array form orignal array 
+// let n=[1,2,3,4,5]
+// let m=n.slice(2)
+// console.log(m);
+// let o=n.slice(1,4)
+// console.log(o);
+
+// 13. for each loop 
+// let b=[1,2,3,4,5]
+// b.forEach((element)=>{
+//     console.log(element*2);
+// })
+
+// 14. for in loop
+// let h=[11,12,13,14,15]
+// for(let i in h)
+// {
+//     console.log(i);
+    
+// }
+
+// 15. for in loop
+// let h=[11,12,13,14,15]
+// for(let i of h)
+// {
+//     console.log(i);
+    
+// }
+
+// 16. map in array
+// let a=[1,2,3,4,5]
+// let b=a.map((element,index,array)=>{
+//     console.log(element+index);
+//     // return element,index
+// })
+// console.log(b);
+
+// 17.fliter in array
+// let i=[21,55,3,65,10,89]
+// let b=i.filter((element)=>{
+//     return element<20
+// })
+// console.log(b);
+
+// 18. reduce in array
+// let c=[1,2,3,4,5]
+// let j=c.reduce((element,index)=>{
+//     console.log(element,index);
+//     return element+index
+// })
+// console.log(j);
+
+// Array perctice set
+// Q1.
+// let a=[12,25,62,80,85,21,99,50]
+// let b=a.filter((h)=>{
+//     return h%10==0
+// })
+// console.log(b);
+
+// Q2.
+// let p=[24,8,66,27,6]
+// let r=p.map((Element)=>{
+//     return Element*Element
+// })
+// console.log(r);
+
+// Q3.
+// let t=[1,2,3,4,5]
+// let h=t.reduce((element1,element2)=>{
+//     return element1*element2
+// })
+// console.log(h);
+
 
 
 

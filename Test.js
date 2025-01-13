@@ -262,4 +262,43 @@ else {
 // let ram=str.splice//not possible bcz string is immutebale 
 // console.log(ram);
 
+// Array in javaScript with method
+// 1.tostring =>convert array in string
+let a=[1,2,3,4,5]
+let b=a.toString()
+console.log(b);
+console.log(typeof b);
+
+// 2.Join =>for sparate array elements
+let fruits=["apple","banana","mango"]
+let f=fruits.join("$");
+console.log(f);
+
+// 3.pop=>for remove last element of array
+let c=[41,54,86,21,63]
+c.pop()
+console.log(c);
+
+// 4.push=>for add in last element of array
+let o=[41,54,86,21,63]
+o.push(55)
+console.log(o);
+
+// 5. unshift=> for add element at first of array
+let n=["happy","sad","cool","fantastic"]
+n.unshift("superb");
+console.log(n);
+
+// 6. shift=> for remove element at first of array
+let w=["happy","sad","cool","fantastic"]
+w.shift()
+console.log(w);
+
+// 7. delete=> for delete element form array
+let h=[1,2,3,4,5]
+delete h[1]
+console.log(h);
+
+
+
 

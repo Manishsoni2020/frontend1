@@ -403,6 +403,28 @@ else {
 // })
 // console.log(h);
 
+// Problem challenge
+// let ranNum=(Math.round(Math.random()*100));
+// let myNum=55;
+// while(ranNum!=myNum)
+// {
+//     if(ranNum==myNum)
+//     {
+//         console.log("correct number");
+//     }
+//     else
+//     {
+//         console.log("incorrect number");
+//         break;
+//     }
+// }
+// console.log(`The random number is ${ranNum}`);
+
+
+let a=alert("hello")
+console.log(a);
+
+
 
 
 

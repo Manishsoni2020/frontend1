@@ -421,9 +421,79 @@ else {
 // console.log(`The random number is ${ranNum}`);
 
 
-let a=alert("hello")
-console.log(a);
+// Prectice of console function============================================
 
+// Question 1
+// let age = prompt("Enter your age")
+// age = Number.parseInt(age)
+// if (age >= 18) {
+//   alert("you can drive")
+// }
+// else {
+//   alert("you can not drive")
+// }
+
+// Question 2
+// let age = prompt("Enter your age")
+// age = Number.parseInt(age)
+// if (age >= 18) {
+//   alert("you can drive")
+//   confirm("do you wanna see prompt again")
+// }
+// else {
+//   alert("you can not drive")
+//   confirm("do you wanna see prompt again")
+// }
+
+// Question 3
+// let age = prompt("Enter your age")
+// age = Number.parseInt(age)
+// if (age >= 18) {
+//   alert("you can drive")
+//   confirm("do you wanna see prompt again")
+// }
+//   else if(age<0)
+//   {
+//     console.error("dont enter negative age")
+//     document.write("dont enter negative age")
+//   }
+// else {
+//   alert("you can not drive")
+//   confirm("do you wanna see prompt again")
+// }
+
+// Question 4
+// let a=prompt("enter any number")
+// a=Number.parseInt(a)
+// if(a>4)
+// {
+//   location.href="https://google.com";
+// }
+// else 
+// {
+//   document.write("you enter number less than 4")
+// }
+
+// Question 5
+// let color = prompt("enter any color name")
+// document.body.style.background = color
+// if (color == "black") {
+//   document.body.style.color = "white"
+// }
+
+//childe Nodes
+// console.log(document.body.firstChild)
+// console.log(document.body.lastChild)
+// console.log(document.body.childNodes)
+
+// Table Navigation=======================================================================
+// let t = (document.body.firstElementChild.firstElementChild)
+// console.log(t)
+// console.log(t.rows)
+// console.log(t.tHead.firstElementChild)
+// console.log(t.tFooter)
+// console.log(t.tBodies)
+// console.log(t.rows[2].rowIndex)
 
 
 

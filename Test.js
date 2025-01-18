@@ -496,7 +496,8 @@ else {
 // console.log(t.rows[2].rowIndex)
 
 
-let a=document.getElementsByTagName("nav")[0].firstElementChild
+let a=document.getElementsByTagName("nav")[0]
+.firstElementChild
 
 
 
